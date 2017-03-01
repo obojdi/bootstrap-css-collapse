@@ -15,6 +15,7 @@
 	max-height: 100vh;
 }
 .navbar-collapse {
+	border-top: none;
 	-ms-overflow-y: auto;
 	    overflow-y: auto;
 	transition: max-height 0.25s ease-in-out;
