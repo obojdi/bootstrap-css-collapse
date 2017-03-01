@@ -1,0 +1,21 @@
+/**	before	*/
+.collapse {
+	display: none;
+}
+.collapse.in {
+	display: block;
+}
+/**	after	*/
+.collapse {
+	display: block;
+	max-height: 0;
+}
+.collapse.in {
+	/*display: block;*/
+	max-height: 100vh;
+}
+.navbar-collapse {
+	-ms-overflow-y: auto;
+	    overflow-y: auto;
+	transition: max-height 0.25s ease-in-out;
+}
